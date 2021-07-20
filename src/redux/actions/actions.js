@@ -1,7 +1,19 @@
 import axios from "axios";
 import swal from 'sweetalert';
-import dotenv from "dotenv";
-dotenv.config();
+
+import { GET_PARKING_LOTS, HEADERS, URL_API_PARKING_LOTS } from "../../constants";
 
 
-const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
+
+export function getParkingLotsByLocation(location) {
+    return function(dispatch) {
+        return axios.get(URL_API_PARKING_LOTS + location, HEADERS)
+            .then((response) => {
+                dispatch({
+                    type: GET_PARKING_LOTS,
+                    payload: response.data,
+                });
+            })
+            .catch((err) => swal('City not found', 'Please, try again', 'warning'));
+    };
+}
