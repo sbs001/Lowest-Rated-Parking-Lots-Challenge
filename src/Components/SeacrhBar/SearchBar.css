@@ -1,6 +1,8 @@
 .searchBar {
-    width: 80%;
-    height: 100%;
+    width: 60%;
+    height: 60px;
+    background-color: var(--primary);
+    border-radius: 5px;
 }
 
 .searchBar form {
@@ -12,7 +14,7 @@
 }
 
 input[name=search] {
-    width: 90%;
+    width: 80%;
     height: 70%;
     border: none;
     margin: 0;
