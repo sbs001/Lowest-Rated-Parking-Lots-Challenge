@@ -1,19 +1,22 @@
 import React, { useState } from 'react';
 import './SearchBar.css';
 import { BsSearch } from "react-icons/bs";
+import { useDispatch } from 'react-redux';
+import { getParkingLotsByLocation } from '../../redux/actions/actions';
 
 export default function SearchBar() {
 
   const [input, setInput] = useState('');
 
-  // const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
   const handleInputChange = (event) => {
     setInput(event.target.value);
   }
+
   const handleSubmit = (event) => {
     event.preventDefault();
-    // dispatch(getCity(input));
+    dispatch(getParkingLotsByLocation(input));
     document.getElementById('SearchBarForm').reset()
   }
 

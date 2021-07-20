@@ -1,18 +1,11 @@
-import { useDispatch } from 'react-redux';
 import './App.css';
-import { getParkingLotsByLocation } from './redux/actions/actions';
+import Home from './Components/Home/Home';
 
 function App() {
 
-  const a = useDispatch();
-
-  a(getParkingLotsByLocation('miami'));
-  
   return (
     <div className="App">
-     asd
-
-     
+         <Home />
     </div>
   );
 }
