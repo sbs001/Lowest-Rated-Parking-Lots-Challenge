@@ -4,12 +4,24 @@
     height: 70px;
     display: flex;
     align-items: center;
-    background-color: red;
+    background-color: var(--primary);
     justify-content: space-around;
 }
 
-.nav img {
-    height: 80%;
+.nav a {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.nav a img {
+    height: 70%;
     background-color: white;
     border-radius: 10px;
+    border: white 3px solid
+}
+
+.navSearchBar {
+    width: 70%;
+    height: 80%;
 }
