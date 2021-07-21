@@ -1,12 +1,12 @@
 import React from 'react';
-import SearchBar from '../SeacrhBar/SearchBar';
+import Nav from '../Nav/Nav';
 import './Results.css'
 
 export default function Results(){
 
   return (
-    <div>
-      <SearchBar />
+    <div className="results">
+      <Nav />
     </div>
   )
 }

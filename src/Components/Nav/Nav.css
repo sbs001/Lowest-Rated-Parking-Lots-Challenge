@@ -1,0 +1,15 @@
+.nav {
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    justify-content: space-around;
+}
+
+.nav img {
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
