@@ -18,7 +18,7 @@
     height: 70%;
     background-color: white;
     border-radius: 10px;
-    border: white 3px solid
+    box-shadow: -5px -6px 13px 3px rgba(0, 0, 0, 0.21), 12px 13px 13px 3px rgba(0, 0, 0, 0.21);
 }
 
 .navSearchBar {

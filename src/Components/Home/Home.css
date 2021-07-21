@@ -11,4 +11,5 @@
     height: 60px;
     background-color: var(--primary);
     border-radius: 5px;
+    box-shadow: -5px -6px 13px 3px rgba(0, 0, 0, 0.21), 12px 13px 13px 3px rgba(0, 0, 0, 0.21);
 }
