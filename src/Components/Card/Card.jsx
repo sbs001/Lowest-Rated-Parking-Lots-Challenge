@@ -20,7 +20,10 @@ export default function Card({ parkingLot }) {
                 <div className="isOpen"> <FcHighPriority className="icon" /> <span> Closed</span> </div>
             }
           </div>
-          <span className=" score">{parkingLot.score}</span>
+          <div className="cardScore">
+            <span className="score">{parkingLot.score}</span>
+            <span>Score</span>
+          </div>
         </div>
         <div className="CardReview">
           <ReactStars count={5} size={40} value={parkingLot.rating} edit={false} isHalf={true} activeColor="#ffd700" />
