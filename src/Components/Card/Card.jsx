@@ -10,7 +10,7 @@ export default function Card({ parkingLot }) {
         <h1>{parkingLot.name}</h1>
         <span>{parkingLot.rating}</span>
         <span>{parkingLot.reviewCount}</span>
-        <h3>{parkingLot.adress}</h3>
+        <h3>{parkingLot.address}</h3>
       </div>
       <a href={parkingLot.yelpUrl} target="_blank" rel="noreferrer">
         <button>View in Yelp!</button>
