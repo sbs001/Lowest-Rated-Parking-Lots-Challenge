@@ -6,7 +6,10 @@ export const refine = (arrYelp) => {
             reviewCount: element.review_count,
             yelpUrl: element.url,
             img: element.image_url,
-            address: element.address1,
+            address: element.location.address1,
+            phone: element.phone,
+            isOpen: element.is_closed,
+            score: ((element.review_count * element.rating) / (element.review_count + 1)).toFixed(2)
         }
     })
 }

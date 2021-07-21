@@ -1,0 +1,115 @@
+.card {
+    width: 80%;
+    height: 220px;
+    display: flex;
+    border-radius: var(--radius);
+    border: var(--thrid) 1px solid;
+    align-items: center;
+    border-radius: var(--radius);
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.0125);
+}
+
+.card img {
+    height: 220px;
+    width: 220px;
+    border-radius: var(--radius);
+}
+
+.icon {
+    transform: scale(2.5);
+}
+
+.cardInfo {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.cardInfoHeader {
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.CardTitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.isOpen {
+    display: flex;
+}
+
+.CardTitle span {
+    margin-left: 20px;
+}
+
+.score {
+    font-size: 40px;
+    transform: translate(-20px, 80px);
+    padding: 10px;
+    background-color: var(--primary);
+    color: white;
+    border-radius: var(--radius);
+}
+
+.CardTitle h1 {
+    margin: 0 20px 0 0;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.CardReview {
+    display: flex;
+    align-items: center;
+}
+
+.countReviews {
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: var(--thrid);
+    border-radius: var(--radius);
+}
+
+.cardAddres h2 {
+    margin: 0 0 5px 0;
+    font-weight: 400;
+}
+
+.cardInfo a {
+    width: 100%;
+    height: 30px;
+}
+
+.cardInfo a button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: var(--radius);
+    background-color: var(--primary);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cardInfo a button:hover {
+    border: var(--primary) 1px solid;
+    background-color: white;
+    color: var(--primary);
+    transform: scale(1.025);
+}

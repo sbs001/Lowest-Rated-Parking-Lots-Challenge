@@ -8,7 +8,7 @@ export default function DisplayResults() {
   const parkingLots = useSelector(state => state.parkingLots);
 
   return (
-    <div>
+    <div className="displayResults">
       {parkingLots.map(parkingLot => <Card parkingLot={parkingLot} />)}
     </div>
   )
