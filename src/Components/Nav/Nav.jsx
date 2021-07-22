@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchBar from '../SeacrhBar/SearchBar';
-import logo from '../../imgs/logo.png';
+import logo from '../../imgs/logo.jpeg';
 import './Nav.css';
 import { Link } from 'react-router-dom';
 
