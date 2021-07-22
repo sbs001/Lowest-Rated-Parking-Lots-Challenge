@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 import './SearchBar.css';
 import { BsSearch } from "react-icons/bs";
-import { useDispatch } from 'react-redux';
-import { getParkingLotsByLocation } from '../../redux/actions/actions';
+import { useHistory } from 'react-router-dom';
 
 export default function SearchBar() {
 
   const [input, setInput] = useState('');
-
-  const dispatch = useDispatch();
+  const history = useHistory();
 
   const handleInputChange = (event) => {
     setInput(event.target.value);
@@ -16,7 +14,7 @@ export default function SearchBar() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    dispatch(getParkingLotsByLocation(input));
+    history.push(`/search?=${input}`);
     document.getElementById('SearchBarForm').reset()
   }
 

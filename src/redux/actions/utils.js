@@ -18,5 +18,7 @@ export const refine = (arrYelp) => {
 }
 
 export const generateUrl = (location, page) => {
+    if (page > 0) page--;
+    console.log(URL_API_PARKING_LOTS + location + '&offset=' + page)
     return URL_API_PARKING_LOTS + location + '&offset=' + page
 }
