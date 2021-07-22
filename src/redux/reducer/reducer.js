@@ -1,4 +1,4 @@
-import { GET_PARKING_LOTS } from "../../constants";
+import { GET_PARKING_LOTS, RESTART_STATE } from "../../constants";
 
 const InitialState = {
     parkingLots: []
@@ -10,6 +10,11 @@ export default function rootReducer(state = InitialState, action) {
         return {
             ...state,
             parkingLots: action.payload
+        }
+    if (action.type === RESTART_STATE)
+        return {
+            ...state,
+            parkingLots: []
         }
     return state;
 }

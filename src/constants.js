@@ -22,3 +22,4 @@ export const HEADERS = {
 //----------------Redux---------------
 //type
 export const GET_PARKING_LOTS = "GET_PARKING_LOTS"
+export const RESTART_STATE = "RESTART_STATE"
