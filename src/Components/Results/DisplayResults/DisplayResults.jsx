@@ -18,8 +18,8 @@ export default function DisplayResults() {
   return (
     <div className="displayResults">
       <div className="dispResHead">
-        <span>Top parking lots with the lowest ratings for:
-          <span className="dispResLocation">{location[0].toUpperCase() + location.substr(1)}</span>
+        <span>Top lowest rated parking lots in: 
+          <span className="dispResLocation"> {location[0].toUpperCase() + location.substr(1)}</span>
           ({parkingLots.length})
         </span>
         <Paged actualPage={page} />

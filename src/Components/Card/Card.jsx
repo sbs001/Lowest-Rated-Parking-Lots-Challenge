@@ -2,11 +2,12 @@ import React from 'react';
 import './Card.css'
 import { FcApproval, FcHighPriority } from "react-icons/fc";
 import ReactStars from "react-rating-stars-component";
+import noImg from '../../imgs/noimage.png'
 
 export default function Card({ parkingLot }) {
   return (
     <div className="card fadeIn">
-      <img src={parkingLot.img} alt="not img" />
+      <img src={parkingLot.img || noImg} alt="not img" />
 
       <div className="cardInfo">
 
