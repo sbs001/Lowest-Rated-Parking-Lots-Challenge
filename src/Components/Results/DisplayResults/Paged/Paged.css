@@ -1,3 +1,21 @@
+.paged {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: -40px;
+}
+
+.paged span {
+    margin: 0 5px 0 5px;
+}
+
+.nextBack {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
 .disabled {
     opacity: 0.3;
+    cursor: not-allowed;
 }

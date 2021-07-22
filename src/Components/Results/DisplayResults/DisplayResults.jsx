@@ -13,15 +13,24 @@ export default function DisplayResults() {
   const location = useParams().location;
   const page = useLocation().search.substr(6) || 1;
 
-  if(!parkingLots.length) return <img  className="spinner" src={spinner} alt="" />
+  if (!parkingLots.length) return <img className="spinner" src={spinner} alt="" />
+
   return (
     <div className="displayResults">
       <div className="dispResHead">
-        <span>Top parking lots with the lowest ratings for <span>{location[0].toUpperCase() + location.substr(1)}</span></span>
+        <span>Top parking lots with the lowest ratings for:
+          <span className="dispResLocation">{location[0].toUpperCase() + location.substr(1)}</span>
+          ({parkingLots.length})
+        </span>
         <Paged actualPage={page} />
       </div>
-      {resultsPag(parkingLots, page).map((parkingLot, i) => <Card key={i} parkingLot={parkingLot} />)}
-      <div className='pagedBottom'><Paged actualPage={page} /></div>
+
+      {resultsPag(parkingLots, page).map((parkingLot, i) =>
+        <Card key={i} parkingLot={parkingLot} />)}
+        
+      <div className='pagedBottom'>
+        <Paged actualPage={page} />
+      </div>
     </div>
   )
 }

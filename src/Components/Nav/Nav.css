@@ -17,9 +17,10 @@
 }
 
 .nav a img {
-    height: 90%;
+    height: 70%;
+    margin-left: 60px;
     background-color: white;
-    border-radius: 100px;
+    border-radius: 200px;
     box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.21), 0 0 13px 3px rgba(0, 0, 0, 0.21);
 }
 

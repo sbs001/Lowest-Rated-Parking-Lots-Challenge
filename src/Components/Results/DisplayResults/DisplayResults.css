@@ -1,5 +1,6 @@
 .displayResults {
     width: 70%;
+    transition: 2s;
 }
 
 .dispResHead,
@@ -8,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    position: relative;
 }
 
 .pagedBottom {
@@ -17,4 +19,13 @@
 .spinner {
     height: 100px;
     margin-top: 200px;
+}
+
+.dispResHead span {
+    font-size: 25px;
+    width: 80%;
+}
+
+.dispResLocation {
+    font-weight: 800;
 }

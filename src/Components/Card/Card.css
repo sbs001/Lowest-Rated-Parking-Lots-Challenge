@@ -10,7 +10,7 @@
     padding: 20px;
     box-shadow: var(--shadow);
     position: relative;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .card:hover {
