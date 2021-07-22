@@ -1,14 +1,14 @@
 import axios from "axios";
 import swal from 'sweetalert';
 
-import { GET_PARKING_LOTS, HEADERS, URL_API_PARKING_LOTS } from "../../constants";
-import { refine } from "./utils";
+import { HEADERS, GET_PARKING_LOTS } from "../../constants";
+import { generateUrl, refine } from "./utils";
 
 
 
-export function getParkingLotsByLocation(location) {
+export function getParkingLotsByLocation(location, page = 0) {
     return function(dispatch) {
-        return axios.get(URL_API_PARKING_LOTS + location, HEADERS)
+        return axios.get(generateUrl(location, page), HEADERS)
             .then((response) => {
                 dispatch({
                     type: GET_PARKING_LOTS,
