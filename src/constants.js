@@ -8,9 +8,9 @@ const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
 //CORS problem solution 
 export const CORS_ANYWHERE = "https://cors-anywhere.herokuapp.com"
 
-export const URL_API = "https://api.yelp.com/v3/businesses";
+export const URL_API = "/v3/businesses";
 
-export const URL_API_PARKING_LOTS = `${CORS_ANYWHERE}/${URL_API}/search?categories=parking&term=parking&limit=50&location=`
+export const URL_API_PARKING_LOTS = `${URL_API}/search?categories=parking&term=parking&limit=50&location=`
 
 export const HEADERS = {
     'headers': {
