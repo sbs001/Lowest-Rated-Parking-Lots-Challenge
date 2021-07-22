@@ -1,6 +1,3 @@
-import { URL_API_PARKING_LOTS } from "../../constants";
-
-
 export const refine = (arrYelp) => {
     return arrYelp.businesses.map(element => {
         return {
@@ -15,10 +12,4 @@ export const refine = (arrYelp) => {
             score: ((element.review_count * element.rating) / (element.review_count + 1)).toFixed(2)
         }
     })
-}
-
-export const generateUrl = (location, page) => {
-    if (page > 0) page--;
-    console.log(URL_API_PARKING_LOTS + location + '&offset=' + page)
-    return URL_API_PARKING_LOTS + location + '&offset=' + page
 }

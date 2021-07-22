@@ -14,7 +14,7 @@ export default function SearchBar() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    history.push(`/search?=${input}`);
+    history.push(`/search/${input}`);
     document.getElementById('SearchBarForm').reset()
   }
 

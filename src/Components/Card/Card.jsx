@@ -5,7 +5,7 @@ import ReactStars from "react-rating-stars-component";
 
 export default function Card({ parkingLot }) {
   return (
-    <div className="card">
+    <div className="card fadeIn">
       <img src={parkingLot.img} alt="not img" />
 
       <div className="cardInfo">
