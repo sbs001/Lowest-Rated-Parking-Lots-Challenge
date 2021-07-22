@@ -8,7 +8,7 @@ export const refine = (arrYelp) => {
             img: element.image_url,
             address: element.location.address1,
             phone: element.phone,
-            isOpen: element.is_closed,
+            isOpen: !element.is_closed,
             score: ((element.review_count * element.rating) / (element.review_count + 1)).toFixed(2)
         }
     })
