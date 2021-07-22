@@ -4,4 +4,28 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.fadeIn {
+    animation: fadeIn 0.5s linear;
+}
+
+.fadeInFast {
+    animation: fadeIn 0.3s linear;
+}
+
+.fadeInSlow {
+    animation: fadeIn 0.8s linear;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
