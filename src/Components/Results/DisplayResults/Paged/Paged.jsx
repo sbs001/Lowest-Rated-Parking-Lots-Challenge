@@ -15,10 +15,10 @@ export default function Paged({ actualPage }) {
 
   return (
     <div>
-      {actualPage > 1 ?  <FcPrevious onClick={() => handleClick('back')} /> : <FcPrevious className="disabled" />}
-      <span>{actualPage}</span>
-      { actualPage <= total/10 ?  <FcNext onClick={() => handleClick('next')} /> : <FcNext className="disabled" /> }
-     
+      {actualPage > 1 ? <FcPrevious onClick={() => handleClick('back')} /> : <FcPrevious className="disabled" />}
+      <span>{actualPage} of {Math.ceil(total/10)}</span>
+      {actualPage <= total / 10 ? <FcNext onClick={() => handleClick('next')} /> : <FcNext className="disabled" />}
+
     </div>
   )
 }

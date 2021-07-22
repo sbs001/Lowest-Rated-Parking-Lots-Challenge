@@ -6,7 +6,7 @@
     border: var(--thrid) 1px solid;
     align-items: center;
     border-radius: var(--radius);
-    margin-top: 20px;
+    margin: 15px 0 15px 0;
     padding: 20px;
     box-shadow: var(--shadow);
     position: relative;

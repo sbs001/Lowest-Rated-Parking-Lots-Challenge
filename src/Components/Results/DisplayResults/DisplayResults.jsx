@@ -15,7 +15,8 @@ export default function DisplayResults() {
   return (
     <div className="displayResults">
       <Paged actualPage={page} />
-      {resultsPag(parkingLots,page).map((parkingLot,i) => <Card key={i} parkingLot={parkingLot} />)}
+      {resultsPag(parkingLots, page).map((parkingLot, i) => <Card key={i} parkingLot={parkingLot} />)}
+      <Paged actualPage={page} />
     </div>
   )
 }
