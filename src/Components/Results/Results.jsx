@@ -1,20 +1,20 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { useLocation } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { getParkingLotsByLocation } from '../../redux/actions/actions';
-import DisplayResults from '../DisplayResults/DisplayResults';
 import Nav from '../Nav/Nav';
+import DisplayResults from './DisplayResults/DisplayResults';
 import './Results.css'
 
-export default function Results(){
+export default function Results() {
 
   const dispatch = useDispatch();
-  const query = useLocation().search.split('&page=');
+  const location = useParams().location;
 
-  useEffect(()=>{
-    dispatch(getParkingLotsByLocation(query[0].split('=')[1], query[1]))
-  },[query,dispatch])
+  useEffect(() => {
+    dispatch(getParkingLotsByLocation(location))
+  }, [location, dispatch])
 
   return (
     <div className="results">
