@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Lowest-Rated-Parking-Lots-Challenge/static/css/main.7836f99d.chunk.css",
-    "main.js": "/Lowest-Rated-Parking-Lots-Challenge/static/js/main.5ab2ebf8.chunk.js",
-    "main.js.map": "/Lowest-Rated-Parking-Lots-Challenge/static/js/main.5ab2ebf8.chunk.js.map",
+    "main.js": "/Lowest-Rated-Parking-Lots-Challenge/static/js/main.8adcd7e4.chunk.js",
+    "main.js.map": "/Lowest-Rated-Parking-Lots-Challenge/static/js/main.8adcd7e4.chunk.js.map",
     "runtime-main.js": "/Lowest-Rated-Parking-Lots-Challenge/static/js/runtime-main.ec5141e5.js",
     "runtime-main.js.map": "/Lowest-Rated-Parking-Lots-Challenge/static/js/runtime-main.ec5141e5.js.map",
-    "static/js/2.4d24bbd4.chunk.js": "/Lowest-Rated-Parking-Lots-Challenge/static/js/2.4d24bbd4.chunk.js",
-    "static/js/2.4d24bbd4.chunk.js.map": "/Lowest-Rated-Parking-Lots-Challenge/static/js/2.4d24bbd4.chunk.js.map",
+    "static/js/2.404db381.chunk.js": "/Lowest-Rated-Parking-Lots-Challenge/static/js/2.404db381.chunk.js",
+    "static/js/2.404db381.chunk.js.map": "/Lowest-Rated-Parking-Lots-Challenge/static/js/2.404db381.chunk.js.map",
     "static/js/3.2b857f66.chunk.js": "/Lowest-Rated-Parking-Lots-Challenge/static/js/3.2b857f66.chunk.js",
     "static/js/3.2b857f66.chunk.js.map": "/Lowest-Rated-Parking-Lots-Challenge/static/js/3.2b857f66.chunk.js.map",
     "index.html": "/Lowest-Rated-Parking-Lots-Challenge/index.html",
     "static/css/main.7836f99d.chunk.css.map": "/Lowest-Rated-Parking-Lots-Challenge/static/css/main.7836f99d.chunk.css.map",
-    "static/js/2.4d24bbd4.chunk.js.LICENSE.txt": "/Lowest-Rated-Parking-Lots-Challenge/static/js/2.4d24bbd4.chunk.js.LICENSE.txt",
+    "static/js/2.404db381.chunk.js.LICENSE.txt": "/Lowest-Rated-Parking-Lots-Challenge/static/js/2.404db381.chunk.js.LICENSE.txt",
     "static/media/logo.9dfe544b.jpeg": "/Lowest-Rated-Parking-Lots-Challenge/static/media/logo.9dfe544b.jpeg",
     "static/media/noimage.8fc5c4dd.png": "/Lowest-Rated-Parking-Lots-Challenge/static/media/noimage.8fc5c4dd.png",
     "static/media/App.css": "/Lowest-Rated-Parking-Lots-Challenge/static/media/parking3.c2aad7aa.jpg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ec5141e5.js",
-    "static/js/2.4d24bbd4.chunk.js",
+    "static/js/2.404db381.chunk.js",
     "static/css/main.7836f99d.chunk.css",
-    "static/js/main.5ab2ebf8.chunk.js"
+    "static/js/main.8adcd7e4.chunk.js"
   ]
 }
