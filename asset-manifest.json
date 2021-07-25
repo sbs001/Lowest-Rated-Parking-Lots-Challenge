@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Lowest-Rated-Parking-Lots-Challenge/static/css/main.7836f99d.chunk.css",
-    "main.js": "/Lowest-Rated-Parking-Lots-Challenge/static/js/main.3de84757.chunk.js",
-    "main.js.map": "/Lowest-Rated-Parking-Lots-Challenge/static/js/main.3de84757.chunk.js.map",
+    "main.js": "/Lowest-Rated-Parking-Lots-Challenge/static/js/main.a29fe244.chunk.js",
+    "main.js.map": "/Lowest-Rated-Parking-Lots-Challenge/static/js/main.a29fe244.chunk.js.map",
     "runtime-main.js": "/Lowest-Rated-Parking-Lots-Challenge/static/js/runtime-main.ec5141e5.js",
     "runtime-main.js.map": "/Lowest-Rated-Parking-Lots-Challenge/static/js/runtime-main.ec5141e5.js.map",
     "static/js/2.404db381.chunk.js": "/Lowest-Rated-Parking-Lots-Challenge/static/js/2.404db381.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.ec5141e5.js",
     "static/js/2.404db381.chunk.js",
     "static/css/main.7836f99d.chunk.css",
-    "static/js/main.3de84757.chunk.js"
+    "static/js/main.a29fe244.chunk.js"
   ]
 }
