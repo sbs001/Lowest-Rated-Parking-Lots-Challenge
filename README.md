@@ -1,7 +1,8 @@
 # ParkingZone App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+API request are performed through an own server deplpoyed in https://sbs-parking-server.herokuapp.com 
+Server Ropositorie: https://github.com/sbs001/ChallengeServer-Node
 *******
 
 #### In this application you can find parking lots according to any location in USA. 
