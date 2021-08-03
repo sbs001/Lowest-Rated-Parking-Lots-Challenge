@@ -1,5 +1,7 @@
 # ParkingZone App
 
+https://sbs001.github.io/Lowest-Rated-Parking-Lots-Challenge
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 API request are performed through an own server deplpoyed in https://sbs-parking-server.herokuapp.com 
 Server Ropositorie: https://github.com/sbs001/ChallengeServer-Node
